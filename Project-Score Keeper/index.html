@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,23 +11,22 @@
       <div class="score__wrapper">
         <div class="home">
           <p class="number" id="scoreHome">0</p>
-          <h1>Home</h1>
+          <h1 id="nameHome">Home</h1>
           <button onclick="plus1Home()">+1</button>
           <button onclick="plus2Home()">+2</button>
           <button onclick="plus3Home()">+3</button>
         </div>
         <div class="away">
           <p class="number" id="scoreAway">0</p>
-          <h1>Away</h1>
+          <h1 id="nameAway">Away</h1>
           <button onclick="plus1Away()">+1</button>
           <button onclick="plus2Away()">+2</button>
           <button onclick="plus3Away()">+3</button>
         </div>
       </div>
       <div class="reset">
-        <div></div>
         <button onclick="reset()">Reset</button>
-        <div></div>
+        <button onclick="changeName()">Namen ändern</button>
       </div>
     </main>
     <script src="./assets/js/main.js"></script>

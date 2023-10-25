@@ -34,10 +34,12 @@ body main .score__wrapper .number {
   background-color: black;
   padding: 2em;
   border-radius: 10px;
+  border: 5px solid aquamarine;
 }
 body main .reset {
   display: flex;
   justify-content: center;
+  gap: 15px;
 }
 body main .reset button {
   padding: 1em 2em;
@@ -45,6 +47,9 @@ body main .reset button {
   background-color: red;
   color: white;
   border: 0px;
+}
+body main .reset button:nth-of-type(2) {
+  background-color: yellowgreen;
 }
 
 /*# sourceMappingURL=style.css.map */

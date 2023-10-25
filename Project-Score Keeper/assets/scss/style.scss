@@ -37,11 +37,13 @@ body {
         background-color: black;
         padding: 2em;
         border-radius: 10px;
+        border: 5px solid aquamarine;
       }
     }
     .reset {
       display: flex;
       justify-content: center;
+      gap: 15px;
 
       button {
         padding: 1em 2em;
@@ -49,6 +51,10 @@ body {
         background-color: red;
         color: white;
         border: 0px;
+
+        &:nth-of-type(2) {
+          background-color: yellowgreen;
+        }
       }
     }
   }

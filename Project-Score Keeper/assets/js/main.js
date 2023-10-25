@@ -15,3 +15,16 @@ const reset = () => {
   scoreHome.innerText = "0";
   scoreAway.innerText = "0";
 };
+
+const nameHome = document.body.querySelector("#nameHome");
+const nameAway = document.body.querySelector("#nameAway");
+
+const changeName = () => {
+  const nameHomeInput = window.prompt("Wie ist der Name der Heim-Mannschaft?");
+  const nameAwayInput = window.prompt(
+    "Wie ist der Name der Auswärts-Mannschaft?"
+  );
+
+  nameHome.textContent = nameHomeInput;
+  nameAway.textContent = nameAwayInput;
+};

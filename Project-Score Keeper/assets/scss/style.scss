@@ -1,0 +1,55 @@
+body {
+  background-color: #2c2c2c;
+  font-family: sans-serif;
+
+  main {
+    .score__wrapper {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      margin-top: 5%;
+
+      .home {
+        color: white;
+        button {
+          padding: 2em;
+          border-radius: 10px;
+          background-color: aquamarine;
+          color: white;
+          border: 0px;
+        }
+      }
+
+      .away {
+        color: white;
+        button {
+          padding: 2em;
+          border-radius: 10px;
+          background-color: blue;
+          color: white;
+          border: 0px;
+        }
+      }
+
+      .number {
+        font-size: 5rem;
+        color: yellow;
+        background-color: black;
+        padding: 2em;
+        border-radius: 10px;
+      }
+    }
+    .reset {
+      display: flex;
+      justify-content: center;
+
+      button {
+        padding: 1em 2em;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        border: 0px;
+      }
+    }
+  }
+}

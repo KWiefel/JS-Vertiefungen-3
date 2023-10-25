@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project-Background</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      padding-top: 10%;
+    }
+    form {
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 20px;
+      padding: 50px;
+    }
+    button {
+      background-color: #adff2f;
+      width: 100px;
+      padding: 0.5em 1em;
+    }
+  </style>
+  <body id="body">
+    <main>
+      <form onsubmit="return false">
+        <input id="color" type="text" />
+        <h1 id="text">Give me a Color!</h1>
+        <button onclick="changeColor()">Senden</button>
+      </form>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

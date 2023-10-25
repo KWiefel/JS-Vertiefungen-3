@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project-Addition Game</title>
+  </head>
+  <style>
+    html {
+      text-align: center;
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      padding-top: 10%;
+    }
+    div {
+      display: inline-block;
+      border: 1px solid black;
+      padding: 1em;
+    }
+  </style>
+  <body>
+    <main>
+      <div id="numberOne"></div>
+      <p>+</p>
+      <div id="numberTwo"></div>
+      <form onsubmit="return false">
+        <input type="number" placeholder="Ergebniss eingeben" />
+        <button onclick="check()">Send</button>
+        <button onclick="newOne()">Neues Rätsel</button>
+      </form>
+    </main>
+    <h1 id="result"></h1>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

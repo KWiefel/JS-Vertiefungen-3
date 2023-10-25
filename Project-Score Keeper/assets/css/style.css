@@ -1,0 +1,50 @@
+body {
+  background-color: #2c2c2c;
+  font-family: sans-serif;
+}
+body main .score__wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 5%;
+}
+body main .score__wrapper .home {
+  color: white;
+}
+body main .score__wrapper .home button {
+  padding: 2em;
+  border-radius: 10px;
+  background-color: aquamarine;
+  color: white;
+  border: 0px;
+}
+body main .score__wrapper .away {
+  color: white;
+}
+body main .score__wrapper .away button {
+  padding: 2em;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border: 0px;
+}
+body main .score__wrapper .number {
+  font-size: 5rem;
+  color: yellow;
+  background-color: black;
+  padding: 2em;
+  border-radius: 10px;
+}
+body main .reset {
+  display: flex;
+  justify-content: center;
+}
+body main .reset button {
+  padding: 1em 2em;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  border: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
